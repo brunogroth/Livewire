@@ -1,5 +1,6 @@
-<?php
+ <?php
 
+use App\Http\Livewire\Calculator;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function() {
+    return redirect('/counter');
 });
+Route::get('/counter', function () {
+    return view('welcome');
+})->name('counter');
+
+Route::get('/calculator', Calculator::class)->name('calculator');
