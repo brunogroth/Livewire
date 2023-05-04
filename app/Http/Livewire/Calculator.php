@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+use Illuminate\View\View;
 use Livewire\Component;
 
 class Calculator extends Component
@@ -12,12 +13,12 @@ class Calculator extends Component
     public float $result = 0;
     public bool $disabled = false;
 
-    public function render()
+    public function render():View
     {
         return view('livewire.calculator');
     }
 
-    public function calculate()
+    public function calculate():void
     {
         $num1 = (float)$this->number1;
         $num2 = (float)$this->number2;
