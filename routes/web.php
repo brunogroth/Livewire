@@ -25,3 +25,5 @@ Route::get('/counter', function () {
 Route::get('/calculator', Calculator::class)->name('calculator');
 
 Route::get('/todolist', Todolist::class)->name('todolist');
+
+Route::get('/cascatingdropdown', \App\Http\Livewire\CascatingDropdown::class)->name('cascatingdropdown');

@@ -22,7 +22,7 @@
             <a href="/counter" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('counter')) ? 'bg-slate-800' : ''}}">Counter</a>
             <a href="/calculator" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('calculator')) ? 'bg-slate-800' : ''}}">Calculator</a>
             <a href="/todolist" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('todolist')) ? 'bg-slate-800' : ''}}">TodoList</a>
-            <a href="/cadcadingdropdown" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('cadcadingdropdown')) ? 'bg-slate-800' : ''}}">Cascading Dropdown</a>
+            <a href="/cascatingdropdown" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('cascatingdropdown')) ? 'bg-slate-800' : ''}}">Cascading Dropdown</a>
 
         </nav>
         {{ $slot }}
