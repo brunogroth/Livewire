@@ -17,13 +17,14 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
         <livewire:styles />
     </head>
-    <body class="antialiased">
+    <body class="antialiased bg-neutral-200">
         <nav class="flex bg-slate-700 text-white">
             <a href="/counter" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('counter')) ? 'bg-slate-800' : ''}}">Counter</a>
             <a href="/calculator" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('calculator')) ? 'bg-slate-800' : ''}}">Calculator</a>
             <a href="/todolist" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('todolist')) ? 'bg-slate-800' : ''}}">TodoList</a>
             <a href="/cascatingdropdown" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('cascatingdropdown')) ? 'bg-slate-800' : ''}}">Cascading Dropdown</a>
             <a href="/products" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('products')) ? 'bg-slate-800' : ''}}">Product Search</a>
+            <a href="/upload" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('upload')) ? 'bg-slate-800' : ''}}">Image Upload</a>
         </nav>
         {{ $slot }}
     </body>
