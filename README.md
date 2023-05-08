@@ -10,7 +10,7 @@ This is a simple project I made with study porpouses. Stacks: Laravel, Livewire,
 
 ## Installation
 1. Clone the project
-2. Go to the project root directory and run `composer install` and `npm install`
+2. To install all dependencies, go to the project root directory and run `composer install` and `npm install`
 3. Create `.env` file and copy content from `.env.example`
 6. Run migrations by executing `php artisan migrate`
 7. Start the project by running `php artisan serve` and start the vite server (for serving css and js files) by running `npm run dev`
