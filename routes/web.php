@@ -4,7 +4,8 @@ use App\Http\Livewire\Calculator;
  use App\Http\Livewire\CascatingDropdown;
  use App\Http\Livewire\ImageUpload;
  use App\Http\Livewire\ProductSearch;
- use App\Http\Livewire\Todolist;
+use App\Http\Livewire\RegisterForm;
+use App\Http\Livewire\Todolist;
  use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,3 +35,5 @@ Route::get('/cascatingdropdown', CascatingDropdown::class)->name('cascatingdropd
 Route::get('/products', ProductSearch::class)->name('products');
 
 Route::get('/upload', ImageUpload::class)->name('upload');
+
+Route::get('/register', RegisterForm::class)->name('register');

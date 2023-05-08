@@ -26,5 +26,6 @@
             </div>
         @endforeach
     </div>
+        <small>* All data are storaged in database.</small>
 </div>
 </div>

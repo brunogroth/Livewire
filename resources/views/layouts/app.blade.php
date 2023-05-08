@@ -25,6 +25,7 @@
             <a href="/cascatingdropdown" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('cascatingdropdown')) ? 'bg-slate-800' : ''}}">Cascading Dropdown</a>
             <a href="/products" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('products')) ? 'bg-slate-800' : ''}}">Product Search</a>
             <a href="/upload" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('upload')) ? 'bg-slate-800' : ''}}">Image Upload</a>
+            <a href="/register" class="py-4 px-6 hover:bg-slate-800 {{(request()->routeIs('register')) ? 'bg-slate-800' : ''}}">Register</a>
         </nav>
         {{ $slot }}
     </body>
