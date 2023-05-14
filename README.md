@@ -23,7 +23,7 @@ This is a simple project I made with study porpouses. Stacks: Laravel, Livewire,
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/brunogroth/Portfolio-React-Website/issues).
+Feel free to check the [issues page](https://github.com/brunogroth/Livewire/issues).
 
 ## Show your support
 
